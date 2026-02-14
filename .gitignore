@@ -1,0 +1,88 @@
+# ── Environment & Secrets ──
+.env
+.env.*
+
+# ── Python ──
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Node.js ──
+node_modules/
+package-lock.json
+
+# ── ML Model weights (too large for GitHub) ──
+*.pth
+*.pt
+*.h5
+*.onnx
+*.pkl
+
+# ── Flutter / Dart build artifacts ──
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+*.iml
+
+# ── iOS ──
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.framework
+**/ios/Flutter/ephemeral/
+**/ios/Runner.xcworkspace/xcshareddata/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+**/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+
+# ── macOS ──
+**/macos/Flutter/ephemeral/
+**/macos/Runner.xcworkspace/xcshareddata/
+**/macos/Runner.xcworkspace/xcuserdata/
+**/macos/Runner.xcodeproj/xcuserdata/
+**/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+
+# ── Android ──
+**/android/.gradle/
+**/android/local.properties
+**/android/app/build/
+**/android/app/release/
+**/android/key.properties
+*.jks
+
+# ── Windows ──
+**/windows/flutter/ephemeral/
+
+# ── Linux ──
+**/linux/flutter/ephemeral/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Uploads (user-generated content) ──
+Backend/uploads/
+
+# ── Log files ──
+*.log
+inference_out.txt
+inference_err.txt
+inference_stdout.log
+inference_stderr.log
+
+# ── Misc ──
+*.bak
+*.tmp
